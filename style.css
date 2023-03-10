@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(33, 32, 32);
+}
+#textsSection {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 2%;
+    font-family: monospace;
+    vertical-align: top;
+    width: 50%;
+}
+#theLineInTheMiddle {
+    vertical-align: top;
+    display: inline-block;
+    border-left: 1px solid rgb(152, 133, 24);
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+#buttonsSection {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 3%;
+    margin-top: 5%;
+    font-family: monospace;
+}
+#textOutputInTextsSection {
+    font-style: italic;
+    color: rgb(152, 133, 24);
+    font-size: 30px;
+}
+#textActionInButtonsSection {
+    font-style: italic;
+    color: rgb(152, 133, 24);
+    font-size: 30px;
+}
+#textsRepresentButtonsContent {
+    font-size: 20px;
+}
+.actionButtons {
+    background: none;
+    color: rgb(189, 191, 66);
+    border: 2px solid rgb(152, 133, 24);
+    width: 200px;
+    height: 40px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: monospace;
+}
+.actionButtons:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* fallback background color */
+}
+.revealRiddleAnswerButton {
+    background: none;
+    color: rgb(152, 133, 24);
+    font-size: 15px;
+    margin-left: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+    border: none;
+    font-family: monospace;
+}
+.revealRiddleAnswerButton:hover {
+    color: rgb(152, 133, 24, 0.5);
+}
